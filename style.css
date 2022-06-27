@@ -1,0 +1,53 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#mainWrapper{
+  border: black 5px solid;
+  display: flex;
+}
+
+#calculatorBody
+{
+  flex: 2;
+}
+
+#history
+{
+  flex: 1;
+}
+
+#history > p
+{
+  font-size: 1.7rem;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#wrapper> div{
+    border: solid 2px black;
+}
+
+#wrapper > div:nth-of-type(1){
+  grid-column: 1 / 5;
+}
+
+#disp{
+    text-align: right;
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+
+#wrapper button{
+    background: aqua;
+    padding: 1.5rem 0;
+    font-weight: 600;
+    font-size: 1rem;
+}
