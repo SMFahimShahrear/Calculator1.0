@@ -42,12 +42,19 @@
     text-align: right;
     padding-right: 1rem;
     font-size: 2rem;
+    font-family:fantasy;
 }
 
 
 #wrapper button{
-    background: aqua;
+    background: #00ffff;
     padding: 1.5rem 0;
     font-weight: 600;
     font-size: 1rem;
+}
+
+#wrapper button:hover{
+  background: #2a9797;
+  color: yellow;
+  cursor: pointer;
 }
